@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# README - Aplicação de Lembretes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma aplicação de lembretes desenvolvida utilizando Java com Spring boot para o back end e React com TypeScript para o front end.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de começar, certifique-se de ter os seguintes requisitos instalados em seu sistema:
 
-## Expanding the ESLint configuration
+- Java Development Kit (JDK) - Versão compatível com o Java Spring.
+- Node.js e npm (Node Package Manager) - Para instalar e gerenciar pacotes do front end.
+- Banco de dados configurado com o nome "lembrete".
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Observação
 
-- Configure the top-level `parserOptions` property like this:
+Por favor, note que em algumas partes do código foram utilizados termos em inglês, enquanto em outras foram utilizados termos em português. Peço desculpas por qualquer confusão que isso possa causar. Esse pequeno erro ocorreu devido a um momento de desvio de atenção durante o desenvolvimento.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instruções de Execução
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Certifique-se de ter configurado corretamente o banco de dados com o nome "lembrete".
+2. Inicie o servidor back end executando o código Java Spring.
+3. Instale os pacotes necessários do front end executando `npm install` no diretório do projeto React.
+4. Inicie o front end utilizando React com TypeScript.
+5. Navegue até a interface do usuário e comece a utilizar a aplicação de lembretes.
+
+Se encontrar algum problema ou tiver alguma sugestão de melhoria, não hesite em entrar em contato comigo.
+
+Obrigado!
+
+--- 
